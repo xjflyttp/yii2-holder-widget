@@ -5,7 +5,7 @@ composer.json
 ===================
 ````````
 "require": {
-        "xj/holder": "*"
+        "xj/yii2-holder": "*"
 },
 ````````
 
