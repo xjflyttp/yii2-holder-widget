@@ -1,4 +1,27 @@
-yii2-holder.js
+yii2-holder
 ==============
 
-holder.js for yii2
+composer.json
+------------
+```json
+"require": {
+        "xj/yii2-holder-widget": "*"
+},
+```
+
+In View
+------------
+```php
+use xj\holder\HolderAssets;
+HolderAssets::register($this);
+```
+
+
+In Assets depends
+-----------
+```php
+public $depends = [
+    'xj\holder\HolderAssets',
+];
+```
+

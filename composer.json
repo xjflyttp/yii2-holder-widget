@@ -1,0 +1,19 @@
+{
+    "name": "xj/yii2-holder-widget",
+    "description": "holder.js",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xjflyttp",
+            "email": "xjflyttp@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "xj\\holder\\": ""
+        }
+    }
+}
