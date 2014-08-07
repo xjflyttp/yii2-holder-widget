@@ -5,7 +5,7 @@ composer.json
 ------------
 ```json
 "require": {
-        "xj/yii2-holder": "*"
+        "xj/yii2-holder-widget": "*"
 },
 ```
 

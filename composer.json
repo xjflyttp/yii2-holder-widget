@@ -1,6 +1,6 @@
 {
-    "name": "xj/yii2-holder",
-    "description": "yii2-holder.js",
+    "name": "xj/yii2-holder-widget",
+    "description": "holder.js",
     "license": "MIT",
     "authors": [
         {
