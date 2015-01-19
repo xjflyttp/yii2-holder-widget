@@ -11,11 +11,10 @@ use yii;
 
 class HolderAssets extends AssetBundle {
 
-    public $sourcePath = '@vendor/xj/yii2-holder/assets';
     public $basePath = '@webroot/assets';
+    public $publishOptions = ['forceCopy' => YII_DEBUG];
     public $js = [];
-    public $css = [
-    ];
+    public $css = [];
     public $depends = [
 //'yii\web\JqueryAsset',
     ];
@@ -27,6 +26,7 @@ class HolderAssets extends AssetBundle {
     }
 
     public function init() {
+        $this->sourcePath = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'assets';
         if (empty($this->js)) {
             $this->js = $this->getJs();
         }
